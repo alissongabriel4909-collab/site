@@ -1,0 +1,207 @@
+body{
+    background-image: url('img/imagem.avif');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200%;
+
+}
+
+.barra-navegacao{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #4e0707;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(198, 198, 202);
+}
+
+.menu{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap:wrap ;
+    justify-content:space-around;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.menu a{
+
+    color: rgb(163, 149, 149);
+    text-decoration: none;
+    
+}
+
+.imagem-esquerda {
+    float: left;  
+    margin-right: 10px;
+}
+
+.link{
+    color: #f5c6e5;
+    text-decoration: none;
+}
+
+.coluna-esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 100px 0;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.container-youtube2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 100px 0;
+    gap: 10px;
+    text-decoration: none;
+    
+
+}
+
+.container-youtube3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 100px 0;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+
+.container-youtube4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 100px 0;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+
+.container-musicas {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.container-musicas h2 {
+    color: #afa8a8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tabela-eletronica {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #b8b2b2;
+    box-shadow: 0 2px 5px rgba(236, 14, 14, 0.05);
+}
+.tabela-eletronica th, 
+.tabela-eletronica td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #eeeeee;
+}
+.tabela-eletronica th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.tabela-eletronica tbody tr:hover {
+    background-color: #f5f5f5;
+}
+.nome-artista {
+    font-weight: bold;
+    color: #222222;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+.nome-artista:hover {
+    color: #00bcd4;
+}
+
+
+.secao-contato{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 200;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #be4a4a;
+    border-radius: 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.secao-contato h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.secao-contato p {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.grupo-campo {
+ margin-bottom: 20px;}
+
+ .formulario-contato {
+    text-align: left;
+ }
+
+ .grupo-campo label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.grupo-campo input,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.grupo-campo input:focus,
+.grupo-campo textarea:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+.botao-enviar {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
