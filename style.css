@@ -4,7 +4,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 200%;
-
 }
 
 .barra-navegacao{
@@ -46,52 +45,66 @@ body{
     text-decoration: none;
 }
 
-.coluna-esquerda{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    margin: 100px 0;
-    gap: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    
+
+
+#videos.bloco {
+    display: flex;          
+    flex-wrap: wrap;        
+    justify-content: center; 
+    gap: 20px;              
+    padding: 40px 20px;     
 }
 
-.container-youtube2{
+.container-videos {
+    max-width: 350px;       
+}
+
+.container-videos .link {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    margin: 100px 0;
-    gap: 10px;
-    text-decoration: none;
-    
+    flex-direction: column; 
+    align-items: center;    
+    text-decoration: none;  
+    color: #fff;            
+    text-align: center;     
+}
+
+.container-videos span {
+    margin-top: 10px;       
+    font-size: 14px;       
 
 }
 
-.container-youtube3{
+#videos {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    margin: 100px 0;
-    gap: 10px;
-    text-decoration: none;
-    
+    flex-wrap: wrap;       
+    gap: 20px;             
+    justify-content: center; 
 }
 
-.container-youtube4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    margin: 100px 0;
-    gap: 10px;
-    text-decoration: none;
-    
+.coluna-esquerda {
+    flex: 1 1 350px;       
+    max-width: 380px;     
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
 }
 
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;  
+    color: white;           
+}
+
+.imagem-esquerda {
+    width: 100%;           
+    height: auto;          
+    border-radius: 6px;    
+    margin-bottom: 20px;
+    max-width: 500px;   
+}
 .container-musicas {
     font-family: Arial, sans-serif;
     margin: 20px auto;
